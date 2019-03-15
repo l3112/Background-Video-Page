@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color:#333;
+    overflow-x:hidden;
+}
+
+.v-header{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    color:#fff;
+
+}
+
+.container{
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+
+}
+
+.fullscreen-video-wrap{
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height:100vh;
+overflow: hidden;
+}
+
+.fullscreen-video-wrap-video{
+    min-width:  100%;
+    min-width:  100%;
+}
+
+.header-overlay{
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    left:0;
+    background:#225;
+    z-index:1;
+    opacity: 0.5
+
+}
+
+.header-content{
+    z-index: 2;
+}
+
+.header-content h1{
+    font-size:50px;
+    margin-bottom:0;
+    margin-top:9;
+}
+
+.btn{
+    background:#0000;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    text-decoration: navajowhite;
+}
